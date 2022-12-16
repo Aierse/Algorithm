@@ -1,12 +1,8 @@
 export function solution(k: number, d: number) {
-    const maximum = d * d
-    
     let count = 0
 
     for (let x = 0; x <= d; x += k) {
-        for (let y = 0; y <= d; y += k) {
-            if (x * x + y * y <= maximum) count++
-        }
+        count += Math.floor(Math.floor(Math.sqrt(d ** 2 - x ** 2)) / k) + 1
     }
     
     return count
