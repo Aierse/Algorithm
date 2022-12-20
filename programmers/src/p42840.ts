@@ -16,7 +16,7 @@ function solution(answers: number[]) {
     const result = [counting(answers, h1), counting(answers, h2), counting(answers, h3)]
 
     return result.map((v, i) => {
-        if (v === Math.max(...result)) return i+1 
+        if (v === Math.max(...result)) return ++i
     })
     .filter(x => x)
 }
