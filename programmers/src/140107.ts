@@ -7,6 +7,3 @@ export function solution(k: number, d: number) {
     
     return count
 }
-
-console.log(solution(2, 4))
-console.log(solution(1, 5))
