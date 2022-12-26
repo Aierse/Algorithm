@@ -7,6 +7,3 @@ export function solution(n: number): number {
             return result === n ? i : i - 1
     }
 }
-
-console.log(solution(3628800))
-console.log(solution(7))
