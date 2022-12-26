@@ -12,6 +12,3 @@ export function solution(s: string): Array<number> {
 
     return solve
 }
-
-console.log(solution("banana"))
-console.log(solution("poobar"))
