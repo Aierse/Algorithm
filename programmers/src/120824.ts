@@ -4,5 +4,3 @@ export function solution(num_list: number[]) {
     
     return answer
 }
-
-console.log(solution([1, 2, 3, 4, 5]));
