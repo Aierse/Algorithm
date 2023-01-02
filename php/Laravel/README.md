@@ -34,5 +34,5 @@ Route::any('/', function () {
     //
 });
 ```
-**동일한 URI를 공유하는 여러개의 라우트를 정의해야할 때에는 get, post, put, patch, delete, options 메서드를 any, match, redirect 메서드보다 먼저 정의해야한다.**. 
+**동일한 URI를 공유하는 여러개의 라우트를 정의해야할 때에는 get, post, put, patch, delete, options 메서드를 any, match, redirect 메서드보다 먼저 정의해야한다.**.  
 **순서가 바뀔 경우 any, match, redirect가 HTTP 메소드를 먼저 처리하여 의도대로 동작하지 않을 수 있다.**
