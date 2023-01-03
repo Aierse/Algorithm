@@ -1,6 +1,8 @@
 # Laravel
 ## routes 폴더
 ### web.php
+RouteServiceProvider 의 web 미들웨어 그룹안에 포함되는 라우트들을 포함하고 있으며, 세션 상태, CSRF 보호, 쿠키 암호화 기능을 제공한다. 만약 애플리케이션이 상태를 저장하지 않는 RESTful API를 제공하지 않는다면, 대부분의 라우트는 web.php 파일안에 정의될것이다.
+
 #### HTTP 메소드
 routes/web.php 에 정의된 라우트는 브라우저를 통해서 유입되는 라우트 URL을 정의하는데 사용된다.  
 라우터는 다음의 HTTP 메서드에 해당하는 응답을 위한 라우트를 등록할 수 있다.
