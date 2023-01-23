@@ -1,5 +1,5 @@
 export function solution(array: number[]) {
-    let answer: { [key: number: number }= {};
+    let answer: { [key: number]: number }= {};
     array.forEach(v => {
         if (answer[v] === undefined)
             answer[v] = 1
@@ -13,16 +13,14 @@ export function solution(array: number[]) {
     for (let value in answer) {
         if (max < answer[value]) {
             max = answer[value]
-            key = value
+            key = +value
         }
     }
     
     for (let value in answer) {
-        if (key !== value && max === answer[value])
+        if (key !== +value && max === answer[value])
             key = -1
     }
-    
-    
     
     return key
 }
