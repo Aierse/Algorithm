@@ -18,6 +18,3 @@ export function solution(n: number) {
 
   return [...answer];
 }
-
-console.log(solution(10));
-console.log(solution(420));
