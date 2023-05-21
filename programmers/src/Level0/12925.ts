@@ -1,3 +1,3 @@
 export function solution(s: string) {
-    return +s
+  return +s;
 }
