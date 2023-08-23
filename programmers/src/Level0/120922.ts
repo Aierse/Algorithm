@@ -1,3 +1,3 @@
 export function solution(M: number, N: number) {
-    return M * N - 1
+  return M * N - 1;
 }
