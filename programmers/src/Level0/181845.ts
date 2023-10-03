@@ -1,1 +1,1 @@
-const solution = String;
+export const solution = String;
